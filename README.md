@@ -9,7 +9,7 @@ ARG1 = Host
 ARG2 = IPMITOOL CMD
 
 For commands with sub commands, make sure to use 'single parathesis' to group command with sub command
-E.X. ./check_impi_remote.sh some.host.com 'power status'
+E.X. ./check_ipmi_remote.sh some.host.com 'power status'
 
 
 
