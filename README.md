@@ -18,4 +18,5 @@ You will need to install ipmitool to use this script
 # apt-get install -y -q ipmitool
 
 See this script to get ipmitool installed and working without the need for a reboot
+
 https://github.com/zhacker98/OS-installer-scripts/blob/master/ipmitool-debian-deploy.sh
