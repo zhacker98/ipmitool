@@ -2,7 +2,7 @@
 
 Change pass.user and pass.new to reflect your environment IPMI User/Password 
 
-Make sure to chmod 400 pass.* one you have set those files for your environment
+Make sure to 'chmod 400 pass.*' once you have set those files for your environment
 
 ARG1 = Host
 
