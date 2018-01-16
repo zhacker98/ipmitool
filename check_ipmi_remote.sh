@@ -9,8 +9,11 @@
 ######
 
 # VAR
-User=$(cat pass.user)
-Pass=$(cat pass.new)
+echo 'ENTER PASSWORD'
+read -s passWorD
+
+User=$(ccrypt -K ${passWorD} -c pass.user.cpt)
+Pass=$(ccrypt -K ${passWorD} -c pass.new.cpt)
 
 # PRE
 
