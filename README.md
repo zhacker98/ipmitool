@@ -2,6 +2,8 @@
 
 Change pass.user and pass.new to reflect your environment IPMI User/Password 
 
+Then run 'ccrypt -e pass.user' and 'ccrypt -e pass.new'
+
 Make sure to 'chmod 400 pass.*' once you have set those files for your environment
 
 ARG1 = Host
